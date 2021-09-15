@@ -24,7 +24,7 @@ $(function() {
                 data: 'project_id',
                 render : function (data, type, row, meta) {
                     return `
-                        <a href="https://pocm.nuls.io/Projects/ProjectsInfo?releaseId=${data}" class="btn btn-sm bg-info" title="Visualizar" target="_blank"><i class="fa fa-eye"></i></a>
+                        <a href="https://pocm.nuls.io/pocm/Projects/ProjectsInfo?releaseId=${data}" class="btn btn-sm bg-info" title="Visualizar" target="_blank"><i class="fa fa-eye"></i></a>
                     `
                 }
             },
