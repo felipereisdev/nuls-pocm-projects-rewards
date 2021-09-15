@@ -54,11 +54,6 @@ class GetPocmProjects extends Command
 
                 Project::updateOrCreate([
                     'name' => $projectObj->name,
-                    'url' => $projectObj->logoUrl,
-                    'description' => $projectObj->projectCard,
-                    'rewards' => $projectInfoObj->tokenPer100NULSPerDay,
-                    'participants' => $projectInfoObj->depositCount,
-                    'minimum_deposit' => $projectInfoObj->minimumDeposit,
                     'project_id' => $projectObj->id
                 ],
                 [
