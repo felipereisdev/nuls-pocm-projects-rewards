@@ -30,10 +30,10 @@
 @stop
 
 @section('footer')
-<div class="main-footer" style="display: flex; justify-content: center; align-items: center;">
+<div style="display: flex; justify-content: center; align-items: center;">
     <span>Donate:</span>
         
-    <label style="display: flex; justify-content: space-between; align-items: center;">
+    <label style="display: flex; justify-content: center; align-items: center; margin: 0 0 0 10px;">
         <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="30" height="30" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
             viewBox="0 0 4091.27 4091.73"
             xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -46,7 +46,7 @@
             </g>
             </g>
         </svg>
-        <input style="width: 320px; font: .7em/2.5 Monaco, monospace; border-width: 0 0 2px; border-color: rgba(black, .1); cursor: text;" onclick="this.select()" readonly="readonly" spellcheck="false" value="bc1q9jms8369pzl5frll77pzscqzya5exy866wf40r" />
+        <input style="width: 320px; font: .7em/2.5 Monaco, monospace; border-width: 0 0 2px; border-color: rgba(black, .1); cursor: text; margin-left: 10px;" onclick="this.select()" readonly="readonly" spellcheck="false" value="bc1q9jms8369pzl5frll77pzscqzya5exy866wf40r" />
     </label>
 </div>
 @stop
