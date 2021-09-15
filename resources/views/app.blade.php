@@ -119,30 +119,21 @@
             &:hover { transition-duration: .1s; }
         }
 
-        @mixin crypto($color, $max-width) {
-            max-width: $max-width;
-            
-            .coin-face {
-                background: shade($color, 35%);
-                
-                &:nth-child(1),
-                &:nth-child(5) {
-                    background: $color;
-                }
-            }
+        .btc {
+            max-width: 21em;
+        }
 
-            .coin-address {
-                &:hover, &:focus { border-color: $color; }
+        .btc.coin-face {
+            background: shade(#ff9900, 35%);
+            
+            &:nth-child(1),
+            &:nth-child(5) {
+                background: #ff9900;
             }
         }
 
-        .btc { @include crypto(#ff9900, 21em); }
-
-
-        @for $i from 1 through 3 {
-            .donate-crypto-box:nth-child(#{$i}) .coin {
-                animation-delay: $i*.2s;
-            }	
+        .btc.coin-address {
+            &:hover, &:focus { border-color: #ff9900; }
         }
     </style>
 @stop
