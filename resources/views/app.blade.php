@@ -10,17 +10,17 @@
     <div class="row">
         <div class="col-12">
             <div class="card">
-                <div class="card-body">
+                <div class="card-body" style="overflow: auto; -webkit-overflow-scrolling: touch;">
                     <table id="dataTable" class="table table-hover table-responsive">
                         <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Total Staking</th>
-                            <th>Daily reward/100 NULS</th>
-                            <th>Participants</th>
-                            <th>Minimum NULS required</th>
-                            <th>Opções</th>
-                        </tr>
+                            <tr>
+                                <th>Name</th>
+                                <th>Total Staking</th>
+                                <th>Daily reward/100 NULS</th>
+                                <th>Participants</th>
+                                <th>Minimum NULS required</th>
+                                <th>Opções</th>
+                            </tr>
                         </thead>
                     </table>
                 </div>
