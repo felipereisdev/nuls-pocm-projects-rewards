@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-12">
             <div class="card">
-                <div class="card-body">
+                <div class="card-body" style="overflow: auto;">
                     <table id="dataTable" class="table table-hover">
                         <thead>
                             <tr>
@@ -30,7 +30,7 @@
 @stop
 
 @section('footer')
-<div style="display: flex; justify-content: center; align-items: center;">
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
     <span>Donate:</span>
         
     <label style="display: flex; justify-content: center; align-items: center; margin: 0 0 0 10px;">
