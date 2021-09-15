@@ -41,6 +41,7 @@ class GetPocmProjects extends Command
     {
         $response = Http::post('https://pocm.nuls.io/api/pocm/release/list', [
             'status' => 1,
+            'lively' => 1
         ]);
 
         $projects = $response->json()['data'];
