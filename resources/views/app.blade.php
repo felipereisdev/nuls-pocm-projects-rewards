@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-12">
             <div class="card">
-                <div class="card-body" style="overflow: auto; -webkit-overflow-scrolling: touch;">
+                <div class="card-body">
                     <table id="dataTable" class="table table-hover table-responsive">
                         <thead>
                             <tr>
