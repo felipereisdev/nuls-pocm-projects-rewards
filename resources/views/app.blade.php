@@ -29,6 +29,7 @@
     </div>
 @stop
 
+@section('footer')
 <footer class="main-footer" style="display: flex; justify-content: center; align-items: center;">
     <strong>Made with love!</strong>
     
@@ -55,6 +56,7 @@
         </label>
     </p>
 </footer>
+@stop
 
 @section('css')
     <style>
