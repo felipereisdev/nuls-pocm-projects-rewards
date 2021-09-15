@@ -3,7 +3,7 @@
 @section('title', 'POCM Projects Rewards')
 
 @section('content_header')
-    <h4>Projects List</h4>
+    <h4>Projects List - Updated every 10 minutes</h4>
 @stop
 
 @section('content')
