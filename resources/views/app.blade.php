@@ -106,6 +106,13 @@
                 width: 100%;
                 height: 100%;
             }
+
+            background: shade(#ff9900, 35%);
+            
+            &:nth-child(1),
+            &:nth-child(5) {
+                background: #ff9900;
+            }
         }
 
         .coin-address {
@@ -119,23 +126,12 @@
             cursor: text;
 
             &:hover { transition-duration: .1s; }
+
+            &:hover, &:focus { border-color: #ff9900; }
         }
 
         .btc {
             max-width: 21em;
-        }
-
-        .btc.coin-face {
-            background: shade(#ff9900, 35%);
-            
-            &:nth-child(1),
-            &:nth-child(5) {
-                background: #ff9900;
-            }
-        }
-
-        .btc.coin-address {
-            &:hover, &:focus { border-color: #ff9900; }
         }
     </style>
 @stop
