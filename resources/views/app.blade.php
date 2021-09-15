@@ -11,7 +11,7 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-                    <table id="dataTable" class="table table-hover">
+                    <table id="dataTable" class="table table-hover table-responsive">
                         <thead>
                         <tr>
                             <th>Name</th>
